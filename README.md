@@ -7,11 +7,11 @@ Esse projeto é um entre cinco outros projetos do [freeCodeCamp](https://www.fre
 
 Este é um projeto de encurtador de url, nele foi utilizado o framework Express, para pesistência de dados foi utilizado o Banco de dados No-SQL MongoDB, para o tratamento e a manipulação de dados o Mongoose. 
 
-1. Recebe uma URL atráves de um POST Method em /hostname/api/shortenurl
-   - Caso seja passado uma url fora do padrão HTTP/HTTPS retorna um erro
-2. Nanoid algoritimo gerá um código aleatório que será este o encurtador, depois sendo associado a url original.
+1. Recebe uma URL atráves de um POST Method em /hostname/api/shorturl;
+   - Caso seja passado uma url fora do padrão HTTP/HTTPS retorna um erro;
+2. Nanoid algoritimo gerá um código aleatório que será este o encurtador, depois sendo associado a url original;
 3. Salva no banco de dados.
-4. Em caso de receber uma chamada GET passando o encu
+4. Em caso de receber uma chamada GET passando o encurtador em /api/shorturl/:urlencurtada? será redirecionado para a URL original;
 
 ----
 ### **Importante**
